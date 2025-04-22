@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HyperBuilder</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        font-family: "Arial", sans-serif;
+      }
+
+      .bg {
+        background-image: url("img/hdCompressed.png");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+
+      .logo-top {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        max-width: 200px;
+        height: auto;
+      }
+
+      .footer-content {
+        position: absolute;
+        bottom: 10%;
+        width: 100%;
+        text-align: center;
+      }
+
+      .text-with-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 12px;
+        font-size: 24px;
+        font-weight: 500;
+        color: #072723;
+      }
+
+      .text-with-logo img {
+        height: 27px;
+        margin: 0 14px;
+        vertical-align: middle;
+        margin-top: 1px;
+      }
+
+      .coming-soon {
+        font-size: 25px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        color: #072723;
+      }
+
+      @media (max-width: 768px) {
+        .text-with-logo {
+          font-size: 20px;
+        }
+        .text-with-logo img {
+          height: 24px;
+        }
+        .coming-soon {
+          font-size: 28px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg">
+      <img
+        src="img/HYPERBUILDER_Logo black.svg"
+        alt="HYPERBUILDER Logo"
+        class="logo-top"
+      />
+
+      <div class="footer-content">
+        <div class="text-with-logo">
+          A Home Of <img src="img/HL logo_dark.png" alt="HL Logo" /> Builders
+        </div>
+        <div class="coming-soon">COMING SOON</div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
